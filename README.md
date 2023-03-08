@@ -1,2 +1,3 @@
 # FreeCodeCamp-TypeScript
-Full walkthrough of TypeScript 
+
+Full course of TypeScript
