@@ -5,9 +5,10 @@
 //     isActive: true
 // }
 exports.__esModule = true;
-function createUser(user) {
-    return {
-        name: '', email: '', isActive: true
-    };
-}
-createUser({ name: '', email: '', isActive: true });
+var myUser = {
+    _id: '1234',
+    name: 'Emilia',
+    email: 'emilia@gmail.com',
+    isActive: false
+};
+myUser.email = 'radeg69@wp.pl';
