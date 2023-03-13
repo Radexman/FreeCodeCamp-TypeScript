@@ -8,10 +8,20 @@ interface User {
     getCoupon(couponName: string): number
 }
 
-const emilia: User = {
+interface User {
+    githubToken: string
+}
+
+interface Admin extends User {
+    role: 'admin' | 'ta' | 'learner'
+}
+
+const emilia: Admin = {
     dbId: 32,
+    role: 'admin',
     email: 'emilia@wp.pl',
     userId: 1,
+    githubToken: '1523',
     startTrail: () => {
         return 'trail started';
     },
