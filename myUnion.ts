@@ -31,3 +31,5 @@ function getDbId(id: number | string) {
 
 const data: number[] = [1, 2, 3, 4];
 const dataTwo: string[] = ['1', '2', '3', '4'];
+
+export {};
